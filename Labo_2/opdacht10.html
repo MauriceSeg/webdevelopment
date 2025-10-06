@@ -1,10 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
+<ul>
+    <li>een</li>
+    <li>twee</li>
+    <ol>   <!-- de fout is dat een <ol> mag niet rechtstreeks in <ul> -->
+        <li>jan</li>
+        <li>piet</li>
+        <li>joris</li>
+    </ol>
+    <li>vier</li>
+</ul>
+<!-- het corecte is -->
+<ul>
+    <li>een</li>
+    <li>twee
+        <ol>
+            <li>jan</li>
+            <li>piet</li>
+            <li>joris</li>
+        </ol>
+    </li>
+    <li>vier</li>
+</ul>
 
 </body>
 </html>
