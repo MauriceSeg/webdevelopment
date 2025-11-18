@@ -1,0 +1,44 @@
+table {
+    width:100%;
+    border-collapse:collapse;
+    font-family:Inter,system-ui;
+}
+table thead tr:first-child th {
+    background: rgb(170,170,200);
+    color:#fff; padding:14px;
+    text-align:center;
+    font-size:18px
+}
+table thead tr th {
+    background:rgb(35,37,70);
+    color:rgb(200,190,240);
+    padding:8px 6px;
+    font-weight:600
+}
+table td {
+    padding:12px;
+    text-align:center;
+    border:1px solid #e6e7eb;
+    background:#fff;
+    min-width:44px
+}
+
+table tbody tr td:nth-child(6),
+table tbody tr td:nth-child(7) {
+    background: rgb(255,220,220);
+}
+
+table td.holiday {
+    background: rgb(250,120,120);
+    color:white;
+    font-weight:700;
+}
+
+table td.muted.holiday {
+    background: rgb(250,120,120);
+    color:#fff;
+    opacity:0.95
+}
+
+
+

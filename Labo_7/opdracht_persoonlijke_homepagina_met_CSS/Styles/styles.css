@@ -1,0 +1,199 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fafafa;
+    width: 95%;
+    margin: auto;
+}
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+header::after {
+    content: "";
+    display: block;
+    width: 60%;
+    height: 4px;
+    background: white;
+    margin: 15px auto 0;
+    border-radius: 2px;
+}
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    position: relative;
+}
+nav a::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: white;
+    transition: 0.3s;
+}
+nav a:hover::after {
+    width: 100%;
+}
+section {
+    margin-bottom: 50px;
+}
+section h2 {
+    position: relative;
+    padding-bottom: 5px;
+}
+section h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 80px;
+    height: 3px;
+    background: #2c3e50;
+    border-radius: 2px;
+}
+section#info article {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    position: relative;
+}
+section#info article::before {
+    content: "";
+    width: 5px;
+    height: 100%;
+    background: #2c3e50;
+    position: absolute;
+    left: -10px;
+    top: 0;
+    border-radius: 3px;
+}
+section#info img {
+    width: 150px;
+    border-radius: 10px;
+}
+ul li, ol li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 8px;
+}
+ul li::before {
+    content: "•";
+    color: #2c3e50;
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+ol li::before {
+    content: "➤";
+    color: #2c3e50;
+    left: 0;
+}
+
+section#interesses img {
+    vertical-align: middle;
+    margin-right: 10px;
+    border-radius: 6px;
+}
+thead tr th {
+    border-bottom: 3px solid #2c3e50;
+    padding: 8px;
+}
+tbody tr:nth-child(even) {
+    background: #f1f1f1;
+}
+td, th {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+.onbekend {
+    background: #ff4d4d;
+    color: white;
+}
+tbody tr:hover {
+    background: #e8f0ff;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #2c3e50;
+    color: white;
+    margin-top: 40px;
+}
+footer::before {
+    content: "";
+    width: 50%;
+    height: 3px;
+    background: white;
+    border-radius: 2px;
+    position: absolute;
+    top: -3px;
+    left: 25%;
+}
+/*css tabel*/
+/*opdracht 3*/
+div table tr.alt td{
+    background:#f5f5f5;
+}
+div table tr.alt td.onbekend,
+div table td.onbekend{
+    background:#ffdddd;
+    color:#780000;
+    text-align:center;
+}
+
+
+
+/*opdracht 2*/
+
+div table {
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+}
+div {
+    font: normal 12px/150% Arial, Helvetica, sans-serif;
+    background: #fff;
+    overflow: hidden;
+    border: 5px solid #8AFFFF;
+    -webkit-border-radius: 20px; /*dit is een browser prefix*/
+    -moz-border-radius: 20px; /*dit is een browser prefix*/
+    border-radius: 20px;
+}
+div table td, div table th {
+    padding: 16px 20px;
+}
+div table thead th {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #000599), color-stop(1, #004C7F) );
+    background:-moz-linear-gradient( center top, #000599 5%, #004C7F 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#000599', endColorstr='#004C7F');
+    background-color:#000599;
+    color:#FFFF19;
+    font-size: 20px;
+    font-weight: bold;
+    border-left: 5px solid #0070A8;
+}
+div table thead th:first-child {
+    border: none;
+}
+div table tbody td {
+    color: #00557F;
+    border-left: 5px solid #8AFFFF;
+    font-size: 20px;
+    border-bottom: 10px solid #368787;
+    font-weight: bold;
+}
+div table tbody .alt td {
+    background: #B0F4B0;
+    color: #00557F;
+}
+div table tbody td:first-child {
+    border-left: none;
+}
+div table tbody tr:last-child td {
+    border-bottom: none;
+}
