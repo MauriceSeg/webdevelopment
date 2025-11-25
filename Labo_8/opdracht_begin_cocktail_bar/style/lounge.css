@@ -1,0 +1,93 @@
+/* Algemene instellingen */
+body {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    background: #ffffff;
+}
+
+#wrapper {
+    width: 95%;
+    background: #ffffff;
+}
+
+
+/* ---- HEADER ---- */
+header {
+    text-align: center;
+}
+
+
+/* ---- LAY-OUT: CONTENT 70% + ASIDE REST ---- */
+#content {
+    width: 70%;
+    float: left;
+}
+
+#elixirs {
+    width: 28%;
+    float: right;
+}
+
+
+/* ---- TITELS ---- */
+h1, h2 {
+    color: rgb(0,126,126);
+}
+h1 { font-size: 150%; }
+h2 { font-size: 130%; }
+
+
+/* --------------------------------------------------
+   SPECIALE KADER (zoals in jouw afbeelding)
+-------------------------------------------------- */
+.color,        /* jouw div met class="color" */
+#guarantee {   /* jouw p met id="guarantee" */
+    margin: 30px;
+    padding: 20px;
+    color: rgb(68,68,68);
+    background: #a7cece;
+    border: 2px dotted #ffffff;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+/* ---- WEEKLY SPECIALS ---- */
+#elixirs h1 {
+    color: darkred;
+}
+#elixirs h2 {
+    color: darkblue;
+}
+article > div {
+    background-image: url('../images/background.gif');
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    padding-left: 22px;
+}
+
+#elixirs {
+    padding: 20px;
+}
+
+/* Hover links */
+#elixirs a {
+    padding: 2px 4px;
+    text-decoration: none;
+    color: inherit;
+}
+#elixirs a:hover {
+    background: brown;
+    color: white;
+}
+
+
+/* ---- FOOTER ---- */
+footer {
+    clear: both;
+    text-align: center;
+    font-size: 0.6em;  /* helft van 1.2em */
+    padding-top: 20px;
+}
