@@ -1,0 +1,14 @@
+article:nth-child(2n) img {
+    float: right;
+    margin-left: 10px;
+
+}
+article:nth-child(2n+1) img{
+    float: left;
+    margin-right: 10px;
+}
+article {
+    display: inline-block;
+    font-size: 1.25em;
+    margin: 0 10px 10px 10px;
+}

@@ -12,7 +12,13 @@ body {
     background: #ffffff;
 }
 
-
+aside {
+    background-image: url("../images/cocktail.gif");
+    background-repeat: repeat-x;
+    background-size: 40px 40px;
+    padding-left: 22px;
+    float: right;
+}
 /* ---- HEADER ---- */
 header {
     text-align: center;
@@ -22,7 +28,6 @@ header {
 /* ---- LAY-OUT: CONTENT 70% + ASIDE REST ---- */
 #content {
     width: 70%;
-    float: left;
 }
 
 #elixirs {

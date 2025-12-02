@@ -1,0 +1,112 @@
+body {
+    font-family: Helvetica, sans-serif;/*gevraagd*/
+    width: 95%;/*gevraagd*/
+    margin: 0 auto;/*gevraagd*/
+}
+
+.top {
+    height: 200px;/*gevraagd*/
+    background-image: url("../images/bgsky3.jpg");/*gevraagd*/
+    color: darkblue;/*gevraagd*/
+    position: relative;/*gevraagd*/
+}
+.top img {
+    position: absolute;/*gevraagd*/
+    right: 250px;/*gevraagd*/
+    bottom: 60px;/*gevraagd*/
+    z-index: 2;/*gevraagd*/
+}
+.top p:first-child {
+    font-size: 300%;/*gevraagd*/
+    font-style: italic;/*gevraagd*/
+}
+.top p {
+    font-size: 240%;/*gevraagd*/
+    text-align: center;/*gevraagd*/
+    font-weight: bold;/*gevraagd*/
+}
+.news {
+    width: 25%;/*gevraagd*/
+    background-color: #dddddd;/*gevraagd*/
+    border: 1px solid #999999;/*gevraagd*/
+    display: inline-block;
+    float: right;
+
+}
+.news p {
+    margin: 10px;/*gevraagd*/
+    color: #666666;/*gevraagd*/
+    text-size-adjust: 90%;/*gevraagd*/
+}
+.news h3 {
+    color: white;/*gevraagd*/
+    background-color: blue;/*gevraagd*/
+    text-size-adjust: 120%;/*gevraagd*/
+    text-align: center;/*gevraagd*/
+}
+.main {
+    width: 75%;/*gevraagd*//*normaal is het width: calc(75% - 10px);*/
+    z-index: auto;/*zorgt voor overlapping met news gebied*/
+}
+.logo {
+    background-color: white;/*gevraagd*/
+    display: inline-block;
+    float: left;
+    width: 135px;
+    margin: 20px 20px 0 20px;/*gevraagd*/
+}
+.introduction {
+    background-color: white;/*gevraagd*/
+    color: black;/*gevraagd*/
+    text-align: justify;/*gevraagd*/
+    display: inline-block;
+    width: calc(100% - 220px);
+    z-index: auto;
+    margin: 20px 30px 20px 0;/*gevraagd*/
+}
+.introduction span {
+    color: blue;/*gevraagd*/
+    font-style: italic;/*gevraagd*/
+    font-weight: bold;/*gevraagd*/
+}
+.introduction p {
+    margin: 0;
+}
+.gallery {
+    background-color: #999999;/*gevraagd*/
+    padding: 20px;/*gevraagd*/
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;/*gevraagd*/
+}
+.foto {
+    background-color: white;/*gevraagd*/
+    padding: 10px;/*gevraagd*/
+    border: 2px dashed #999999;/*gevraagd was 1px*/
+    border-radius: 10px;
+
+}
+
+.foto img {
+    width: 180px;/*gevraagd*/
+    height: 180px;/*gevraagd*/
+    object-fit: cover;
+}
+.bottom {
+    background-color: #666666;/*gevraagd*/
+    color: white;/*gevraagd*/
+    line-height: 2em;/*gevraagd*/
+
+}
+.block {
+    padding-left: 120px;/*gevraagd*/
+    display: inline-block;
+}
+.block a{
+    color: white;
+}
+.copyright {
+    text-align: center;/*gevraagd*/
+    background-color: white;/*gevraagd*/
+    color: black;/*gevraagd*/
+}
