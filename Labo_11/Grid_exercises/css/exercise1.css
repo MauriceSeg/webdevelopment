@@ -1,0 +1,16 @@
+.container{
+    background-color: cornflowerblue;
+
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    /*of*/
+    /*grid-template-columns: auto auto auto;*/
+    gap: .5rem .8rem;
+    justify-items: stretch;
+}
+
+.container .block{
+    margin:50px;
+    padding:50px;
+    background-color: white;
+}
