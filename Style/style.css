@@ -1,0 +1,41 @@
+h1, h2, h3, h4, h5, h6 {
+    margin: 7px 0 5px 0;
+}
+h1 {
+    font-size: 3em;
+    color: black;
+}
+h2 {
+    font-size: 2em;
+    color: darkcyan;
+}
+h3 {
+    font-size: 1.5em;
+    color: darkgoldenrod;
+}
+ol > li {
+    width: 400px;
+}
+ul {
+    margin: 0px;
+}
+a {
+    display: inline-block;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-style: normal;
+    text-decoration: none;
+    color: green;
+    font-size: large;
+    margin: 0 0 5px 0;
+}
+li > a {
+    color: darkblue;
+}
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    padding: 5px 2px;
+}
