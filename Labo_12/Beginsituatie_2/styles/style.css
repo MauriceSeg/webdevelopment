@@ -1,10 +1,64 @@
 html {
     background-color: #333;
-    font-family: helvetica;
 }
-
+html, img {
+    padding: 0;
+}
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+header, footer {
+    background-color: #ddaa00;
+    text-align: center;
+    color: #dfdfdf;
+}
+nav {
+    padding: 5px 2px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a {
+    background-color: white;
+    color: #ddaa00;
+    margin: 0 5px;
+    border: 1px black solid;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+}
+main {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+}
+div {
+    margin: 5px;
+    background-color: white;
+}
+div a {
+    display: block;
+    border: 1px #333 solid;
+    text-align: center;
+    text-decoration: none;
+    color: gray;
+}
+h1 {
+    margin: 0;
+}
 * {
     padding: 10px;
 }
-
+img {
+    width: 100%;
+}
+@media screen and (min-width: 700px){
+    main {
+        flex-direction: row;
+    }
+}
 

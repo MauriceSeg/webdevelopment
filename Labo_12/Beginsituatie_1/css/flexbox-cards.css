@@ -63,7 +63,8 @@ a {
 }
 
 .container {
-/* flex-eigenschappen */
+    display: flex;
+    align-items: center;
 }
 
 .card {
