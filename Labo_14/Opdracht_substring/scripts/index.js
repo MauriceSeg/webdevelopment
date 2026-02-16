@@ -1,3 +1,15 @@
+const setup = () => {
+    document.getElementById("btnToon")
+        .addEventListener("click", toonSubstring);
+};
+const toonSubstring = () => {
+    let woord = document.getElementById("txtWoord").value;
+    let start = parseInt(document.getElementById("txtStart").value);
+    let einde = parseInt(document.getElementById("txtEinde").value);
+    let resultaat = woord.substring(start, einde);
+    document.getElementById("txtOutput").innerHTML = resultaat;
+};
+window.addEventListener("load", setup);
 
 
 
