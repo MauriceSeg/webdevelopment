@@ -1,0 +1,13 @@
+input {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.error {
+    border: 2px solid red;
+}
+
+span {
+    color: red;
+    margin-left: 10px;
+}
