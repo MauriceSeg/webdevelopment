@@ -1,7 +1,6 @@
 let zintje = 'DE gemeenten de het man de man de deasldkf sldfdlmsdfjsde delsdjljde de'
 let zin = zintje.toLowerCase()
 const actie = () => {
-
     if (zin.substring(0, 3) === 'de '){
         zin = 'het' + zin.slice(2);
         console.log(zin)
