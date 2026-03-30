@@ -12,10 +12,10 @@ let isBusy = false;
 
 const board = document.getElementById("gameBoard");
 
-// 🔀 shuffle kaarten
+// shuffle kaarten
 kaarten.sort(() => Math.random() - 0.5);
 
-// 🃏 kaarten maken
+// kaarten maken
 kaarten.forEach((img) => {
     let card = document.createElement("div");
     card.classList.add("card");
@@ -45,7 +45,7 @@ function checkMatch() {
 
     if (c1.dataset.image === c2.dataset.image) {
 
-        // ✅ juiste kaarten → groen
+        // juiste kaarten → groen
         c1.classList.add("correct");
         c2.classList.add("correct");
 
@@ -62,7 +62,7 @@ function checkMatch() {
 
     } else {
 
-        // ❌ foute kaarten → rood
+        // foute kaarten → rood
         c1.classList.add("wrong");
         c2.classList.add("wrong");
 
