@@ -1,0 +1,28 @@
+#color {
+    width: 120px;
+    height: 120px;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+.slider {
+    display: inline-block;
+}
+.swatch {
+    width: 90px;
+    height: 60px;
+    display: inline-block;
+    margin: 5px;
+    position: relative;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.swatch:hover {
+    transform: scale(1.1);
+}
+.delete {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 12px;
+}

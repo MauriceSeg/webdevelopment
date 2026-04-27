@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Labo 21</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+<div class="slider">
+    <input type="color" id="colorPicker" value="#000000">
+
+    <p>0<input type="range" id="red" class="slider" value="0" min="0" max="255">255</p>
+    <p>0<input type="range" id="green" class="slider" value="0" min="0" max="255">255</p>
+    <p>0<input type="range" id="blue" class="slider" value="0" min="0" max="255">255</p>
+</div>
+<div class="slider">
+    <p id="OutputRed">Red 0</p>
+    <p id="OutputGreen">Green 0</p>
+    <p id="OutputBlue">Blue 0</p>
+</div>
+<div id="picker" class="slider">
+    <div id="color"></div>
+    <button id="save">Save</button>
+</div>
+<div id="result"></div>
+<script src="scripts/index.js"></script>
+</body>
+</html>
